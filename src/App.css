@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content */
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  /* justify-content: center; */
+  min-height: 100vh; /* Make it take up full screen height */
+  flex: 1;
+}
+
+h1 {
+  color: #ffcc00;
+  margin-top: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align labels with dropdowns */
+  margin-bottom: 10px;
+  width: 100%; /* Make sure it doesn’t shrink */
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #00ff99;
+}
+
+.definition {
+  font-size: 16px;
+  color: #dddddd;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+  bottom: 0;
+  position: fixed;
+}
