@@ -12,7 +12,7 @@ function App() {
   const fetchWord = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3001/api/random-word",
+        "https://random-word-generator-api.railway.app",
         {
           params: { category, length },
         }
